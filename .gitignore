@@ -1,30 +1,49 @@
-## Python compiled files
+## Mac OSX
+##---------
+.DS_Store
+
+## Python
+##--------
 __pycache__/
 *.py[cod]
 *$py.class
 
-## Test binary, built with `go test -c`
-*.test
+## Fortran module
+##----------------
+*.mod
+*.smod
+
+## C++
+##-----
+## Prerequisites
+*.d
+
+## Precompiled Headers
+*.gch
+*.pch
 
 ## Object files
-*.o
-*.ko
-*.obj
 *.elf
+*.ko
+*.lo
+*.o
+*.obj
+*.slo
 
-## Libraries
-*.lib
+## Static Libraries
 *.a
 *.la
-*.lo
+*.lai
+*.lib
 
-## Shared objects (inc. Windows DLLs)
+## Shared objects (Dynamic libraries)
 *.dll
+*.dylib
 *.so
 *.so.*
-*.dylib
 
 ## Executables
+*.app
 *.exe
 *.out
 
@@ -32,6 +51,8 @@ __pycache__/
 *.dSYM/
 *.su
 
+## LaTeX
+##-------
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -72,6 +93,3 @@ __pycache__/
 *.synctex.gz
 *.synctex.gz(busy)
 *.pdfsync
-
-## Mac OSX
-.DS_Store
